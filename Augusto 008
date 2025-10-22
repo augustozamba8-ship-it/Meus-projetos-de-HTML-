@@ -1,0 +1,11 @@
+			<action value="10">10º período</action>
+		</select>
+		
+		<label for="matricula">Matrícula:</label>
+		<input type="text" id="matricula" name="matricula" required>
+		
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
+</form>
