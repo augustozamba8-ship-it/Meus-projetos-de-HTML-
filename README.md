@@ -44,6 +44,19 @@
   </form>
 </body>
 </html>
+<html>
+<h1>Bem-vindo à pagina</h1>
 
+<h2>Produto</h2>
+
+<img src="HTML//1.jpg" alt="imagem" width="340">
+
+<h2> vídeo</h2>
+
+<video width="400" controls>
+  <source src="HTLM//1.mp4" type="video/mp4">
+  O seu navegador  suporta vídeo.
+</video>
+</html>
 # Meus-projetos-de-HTML-
 Programa é o meu foco 
