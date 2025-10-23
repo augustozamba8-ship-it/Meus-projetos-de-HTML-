@@ -15,8 +15,7 @@
     <td>Rio de Janeiro</td>
   </tr>
 </table><html>
-<!DOCTYPE html>
-<html>
+
 
 # Meus-projetos-de-HTML-
 Programa é o meu foco 
