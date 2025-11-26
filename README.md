@@ -177,4 +177,50 @@ Ju<table>
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Agência de Viagens</title>
+  <style>
+    body { font-family: Arial; background: #f0f0f0; padding: 20px; }
+    header { background: #0099cc; color: white; padding: 15px; text-align: center; }
+    section { background: white; padding: 20px; margin-top: 10px; border-radius: 8px; }
+    footer { text-align: center; margin-top: 20px; color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bem-vindo à Viagem dos Sonhos</h1>
+    <p>Descubra destinos incríveis com os melhores preços!</p>
+  </header>
+
+  <section>
+    <h2>Destinos Populares</h2>
+    <ul>
+      <li>Praias de Moçambique</li>
+      <li>Luanda - Ilha do Cabo</li>
+      <li>Lisboa, Portugal</li>
+      <li>Dubai, Emirados Árabes</li>
+      <li>Angola,Luanda</li>
+  
+    </ul>
+  </section>
+
+  <section>
+    <h2>Reservar uma viagem</h2>
+    <form>
+      Nome: <input type="text" name="nome"><br><br>
+      E-mail: <input type="email" name="email"><br><br>
+      Destino: <input type="text" name="destino"><br><br>
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2030 Viagem dos Sonhos</p>
+  </footer>
+</body>
+</html>
+
 
