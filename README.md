@@ -21,6 +21,71 @@ umJu<table>
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Bem_Vindo/HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      color: #3498db;
+    }
+    .trimestre {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Site De  CSS/HTML</h1>
+  
+  <div class="trimestre">
+    <h2>Primeiro trimestre</h2>
+    <ul>
+      <li>Introdução ao CSS</li>
+    </ul>
+  </div>
+  
+  <div class="trimestre">
+    <h2>Segundo trimestre</h2>
+    <ul>
+      <li>Sintaxe básico do CSS</li>
+      <li>Selectores Simples</li>
+      <li>Elementos, class e id</li>
+    </ul>
+  </div>
+  
+  <div class="trimestre">
+    <h2>Terceiro trimestre</h2>
+    <ul>
+      <li>A importância do CSS no desenho web</li>
+      <li>Tipos de folhas de estilos (inline, externo)</li>
+      <li>Elementos, class e id (aprofundamento)</li>
+    </ul>
+  </div>
+  
+  <h2>Extras:</h2>
+  <p><strong>Formulário:</strong></p>
+  <form>
+    Nome: <input type="text"><br>
+    Email: <input type="email"><br>
+    <button>Enviar</button>
+  </form>
+  
+  <p><strong>Tabela de resumo:</strong></p>
+  <table border="1">
+    <tr><th>Item</th><th>Descrição</th></tr>
+    <tr><td>HTML</td><td>Linguagem de marcação</td></tr>
+    <tr><td>CSS</td><td>Linguagem de estilos</td></tr>
+  </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
   <title>Bem_Vindo</title>
   <style>
     body {
