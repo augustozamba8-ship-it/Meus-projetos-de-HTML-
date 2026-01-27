@@ -18,6 +18,26 @@ umJu<table>
 
 <html>
 
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">AZ</div>
+        <div>
+          <h1>Augusto Zamba</h1>
+          <div class="small">Hambúrguer artesanal</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#menu">Cardápio</a>
+        <a href="#horario">Horário</a>
+        <a href="#contato">Contato</a>
+        <a class="cta" href="#contato">Reservar / Visitar</a>
+      </nav>
+    </div>
+  </header>
 <!DOCTYPE html>
 <html>
 <head>
