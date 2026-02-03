@@ -393,4 +393,39 @@ umJu<table>
 </body>
 </html>
 
+contas = {
+    "João": {"valor": 100, "pagou": False},
+    "Maria": {"valor": 150, "pagou": False},
+    "Pedro": {"valor": 200, "pagou": False}
+}
+
+def menu():
+    print("\n=== Menu ===")
+    print("1. Registrar pagamento")
+    print("2. Verificar pagamentos")
+    print("3. Valor em falta")
+    print("4. Sair")
+
+while True:
+    menu()
+    opcao = input("Escolha: ")
+
+    if opcao == "1":
+        nome = input("Nome: ")
+        if nome in contas:
+            contas[nome]["pagou"] = True
+            print(f"{nome} registrado como pagou!")
+        else:
+            print("Pessoa não encontrada.")
+    elif opcao == "2":
+        for nome, info in contas.items():
+            status = "Pagou" if info["pagou"] else "Não pagou"
+            print(f"{nome}: {status}")
+    elif opcao == "3":
+        falta = sum(info["valor"] for info in contas.values() if not info["pagou"])
+        print(f"Valor em falta: {falta}")
+    elif opcao == "4":
+        break
+    else:
+        print("Opção inválida.")
 
